@@ -1,1 +1,6 @@
-select * from rawdb.globalmart.cust;
+{{
+    config(
+        materialized='table'
+    )
+}}
+select * from rawdb.globalmart.cust
