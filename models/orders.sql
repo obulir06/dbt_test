@@ -1,1 +1,0 @@
-select * from rawdb.globalmart.orders

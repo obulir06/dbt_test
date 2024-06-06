@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-select * from rawdb.globalmart.cust
+select * from {{ source('globalmart', 'cust') }}
